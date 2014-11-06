@@ -6,8 +6,6 @@ int main(void)
  uint32_t result;
  uint8_t ch;
  uint32_t num = 0;
- uint32_t power;
-
  do
  {
    result = read(0, &ch, 1);
@@ -39,6 +37,5 @@ int main(void)
      }
    }
  } while (result);
- 
 return 0;
 }
